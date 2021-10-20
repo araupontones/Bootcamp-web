@@ -2,11 +2,12 @@
 body {
   margin: 0;
   background-color: #f3f7f4;
+
 }
 
 /********************************* CLASS **************************************/
 .container {
-  height: 400px;
+  height: 330px;
 }
 
 .top-container {
@@ -16,12 +17,12 @@ body {
 
 .profile-container {
   position: relative;
-  top: 80px;
+  top: 40px;
 }
 
 .skills{
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 .left{
   text-align: left;
@@ -55,6 +56,17 @@ margin: 0 auto;
   float: right;
 
 }
+.row-pulpo{
+  display: inline;
+  float: left;
+}
+
+#logo-pulpo{
+  width: 100px;
+  position: absolute;
+  margin: 3px 0 auto 2px;
+}
+
 /*************************pulpo************************************************/
 p, table, ul, form, a {
   font-family: 'IBM Plex Mono', monospace;
@@ -79,6 +91,7 @@ h1, h3, h2 {
 h1 {
   margin-top: 0;
   color: #2B347C;
+  font-size: 2.8rem;
 }
 
 .h1title {
