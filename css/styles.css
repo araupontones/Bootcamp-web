@@ -1,0 +1,94 @@
+/********************************** TAGS **************************************/
+body {
+  margin: 0;
+  background-color: #f3f7f4;
+}
+
+/********************************* CLASS **************************************/
+.container {
+  height: 400px;
+}
+
+.top-container {
+  background-color: #f3f7f4;
+  text-align: center;
+}
+
+.profile-container {
+  position: relative;
+  top: 80px;
+}
+
+.skills{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.left{
+  text-align: left;
+
+}
+.middle-container {
+  text-align: center;
+}
+
+.bottom-container {
+  text-align: center;
+
+}
+
+.footer-link{
+  position: relative;
+  top:5px;
+  display: inline-block;
+
+}
+
+.contact-me{
+  margin-bottom: 5px;
+}
+.footer-img{
+    width: 20px;
+margin: 0 auto;
+}
+
+.trademark{
+  float: right;
+
+}
+/*************************pulpo************************************************/
+p, table, ul, form, a {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+td{
+  text-align: left;
+}
+
+table{
+  margin: 0 auto;
+}
+.profile-subtitle {
+  margin-top: 0;
+  font-weight: bolder;
+}
+
+h1, h3, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  color: #2B347C;
+}
+
+.h1title {
+  margin-bottom: 5px;
+}
+
+h3 {
+  color: #577590;
+}
+
+h2 {
+  color: #277DA1;
+}
