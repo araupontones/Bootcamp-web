@@ -1,14 +1,14 @@
 /********************************** TAGS **************************************/
 body {
   margin: 0;
-  background-color: #f3f7f4;
-
-}
+  padding: 0 150px;
+  }
 
 /********************************* CLASS **************************************/
 .container {
-  height: 330px;
+  height: 320px;
 }
+
 
 .top-container {
   background-color: #f3f7f4;
@@ -17,51 +17,72 @@ body {
 
 .profile-container {
   position: relative;
-  top: 40px;
+  top: 30px;
 }
 
-.skills{
-  margin-left: 30%;
-  margin-right: 30%;
+.skills {
+  margin: auto;
 }
-.left{
+
+.left {
   text-align: left;
-
+  display: inline-block;
+  width: 50%;
+  line-height: 2;
+  margin-top: 0;
 }
+
 .middle-container {
   text-align: center;
+  background-color: white;
 }
 
 .bottom-container {
-  text-align: center;
-
-}
-
-.footer-link{
   position: relative;
-  top:5px;
-  display: inline-block;
+  background-color: #f3f7f4;
+  height: 60px;
+}
+
+.trademark {
+  display: inline;
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+  top:20px;
+  right: 10px;
 
 }
 
-.contact-me{
+.row-contact{
+  position: absolute;
+  right: 280px;
+  top: 20px;
+}
+.contact-container{
+  background-color:  #f3f7f4;
+}
+
+.footer-link {
+  display: inline-block;
+}
+
+.contact-me {
   margin-bottom: 5px;
 }
-.footer-img{
-    width: 20px;
-margin: 0 auto;
+
+.footer-img {
+  width: 20px;
+  margin: 0 3px;
 }
 
-.trademark{
-  float: right;
 
-}
-.row-pulpo{
+
+.row-pulpo {
   display: inline;
   float: left;
 }
 
-#logo-pulpo{
+#logo-pulpo {
   width: 100px;
   position: absolute;
   margin: 3px 0 auto 2px;
@@ -72,13 +93,19 @@ p, table, ul, form, a {
   font-family: 'IBM Plex Mono', monospace;
 }
 
-td{
-  text-align: left;
+p{
+  font-size: 1rem;
 }
 
-table{
+td {
+  text-align: left;
+  font-size: 1rem;
+}
+
+table {
   margin: 0 auto;
 }
+
 .profile-subtitle {
   margin-top: 0;
   font-weight: bolder;
@@ -100,8 +127,17 @@ h1 {
 
 h3 {
   color: #577590;
+
 }
 
 h2 {
   color: #277DA1;
+  padding: 15px 0 5px 0;
+  margin-bottom: 10px;
+}
+
+hr {
+  height: 1px;
+  background-color: gray;
+  margin:0;
 }
